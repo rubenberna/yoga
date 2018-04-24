@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
   root to: 'services#index'
+  devise_for :users
 
   resources :services
   resources :bookings
