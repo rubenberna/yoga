@@ -19,6 +19,8 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'better_errors'
 gem 'binding_of_caller'
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
