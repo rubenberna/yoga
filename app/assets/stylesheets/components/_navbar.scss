@@ -1,31 +1,43 @@
 /* Main navbar */
-.navbar-wagon {
+.navbar {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
-  height: 184px;
+  height: 197px;
   padding: 0px 30px;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 0;
 }
 
+.navbar-links {
+  padding-bottom: 7px;
+}
 
-
-
+.logo {
+  font-family: $logo-font;
+  margin-bottom: 17px;
+  font-size: 25px;
+  h4 {
+    font-size: 45px;
+    margin-bottom: 22px;
+  }
+}
 
 /* Basic navbar item */
-.navbar-wagon-item {
+.navbar-item {
   cursor: pointer;
   padding: 0 20px;
 }
 
 /* Navbar link */
-.navbar-wagon-link {
+.navbar-link {
   color: #616668;
   font-size: 14px;
 }
-.navbar-wagon-link:hover {
+.navbar-link:hover {
   color: #da552f;
   text-decoration: none;
 }
