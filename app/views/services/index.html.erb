@@ -1,5 +1,21 @@
 
-
-<% @services.each do |l| %>
-<%= l.name %>
-<% end %>
+<div class="grid">
+  <% @services.each do |l| %>
+    <div class="service-photo">
+      <%= l.photo %>
+    </div>
+    <div class="service-name">
+    <%= l.name %>
+    </div>
+    <div class="service-date">
+    <%= l.date %>
+    </div>
+    <div class="service-description">
+    <%= l.description %>
+    </div>
+    <div class="read-more">
+      <%= link_to 'Read more', service_path(l) %>
+        <h4> Read more</h4>
+    </div>
+    <% end %>
+</div>
